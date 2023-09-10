@@ -1,0 +1,66 @@
+/* Common styles for the navigation menus */
+ul.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.nav-item {
+    margin-bottom: 5px; /* Margin between vertical menu items */
+}
+
+li.nav-item a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Horizontal Menu */
+ul.horizontal-menu {
+    background-color: #ccc;
+    padding: 10px;
+    border: 1px solid #999;
+    display: inline-block;
+}
+
+li.horizontal-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+li.horizontal-item a {
+    padding: 10px 16px;
+    color: white;
+}
+
+li.horizontal-item a:hover {
+    background-color: #555;
+}
+
+/* Vertical Menu */
+ul.vertical-menu {
+    border: 1px solid #999;
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+}
+
+li.vertical-item {
+    margin-bottom: 5px;
+}
+
+/* Style for the "Home" item in the vertical menu */
+li.vertical-item:first-child a {
+    background-color: yellow;
+    color: #333;
+}
+
+/* Style for the rest of the items in the vertical menu */
+li.vertical-item:not(:first-child) a {
+    background-color: blue;
+    color: #333;
+}
+
+li.vertical-item a:hover {
+    background-color: #ddd;
+}

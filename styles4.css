@@ -1,0 +1,49 @@
+/* Style for the page background (outside the form) */
+body {
+    background-color: pink; /* Set the background color outside the form to pink */
+}
+
+/* Style for the form */
+form {
+    border: 2px solid green; /* Change border color to green */
+    padding: 20px; /* Add padding for spacing inside the border */
+    background-color: lightgreen; /* Change background color of the form to lightgreen */
+    width: 300px; /* Adjust the form width as needed */
+    margin: 0 auto; /* Center the form horizontally on the page */
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: darkgreen; /* Change label text color to darkgreen */
+}
+
+/* Style for input fields and text area */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa; /* Change border color to gray */
+    border-radius: 6px; /* Increase border radius */
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    background-color: green; /* Change background color of the submit button to green */
+    color: white;
+    padding: 12px 24px; /* Increase padding for the submit button */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover {
+    background-color: darkgreen; /* Change background color on hover to darkgreen */
+}

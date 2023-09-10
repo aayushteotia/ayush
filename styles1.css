@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the side navigation container */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0; /* Displayed on the left */
+    background-color: transparent; /* Remove background color */
+    transition: width 0.3s; /* Smooth width transition */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding-top: 20px;
+}
+
+/* Style for the side navigation buttons */
+.nav-btn {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent; /* Remove background color */
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the side navigation buttons */
+.nav-btn:hover {
+    background-color: #555;
+}
+
+/* Style for the main content */
+.main-content {
+    margin-left: 250px; /* Align with the page with a margin */
+    padding: 20px;
+    transition: margin-left 0.3s; /* Smooth margin-left transition */
+}
+
+
+.nav-btn.about {
+    background-color: green;
+}
+
+
+.nav-btn.blog {
+    background-color: blue;
+}
+
+/* Projects button with a red background */
+.nav-btn.projects {
+    background-color: red;
+}
+
+/* Contact button with a grey background */
+.nav-btn.contact {
+    background-color: grey;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .sidenav {
+        width: 100%;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}

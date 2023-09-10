@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Page</title>
+    <style>
+        /* Style for the body of the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: yellow; /* Set the background color to yellow */
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        /* Style for the left navigation menu */
+        aside {
+            background-color: #333;
+            color: white;
+            width: 200px; /* Adjust the width as needed */
+            padding: 20px;
+        }
+
+        /* Style for the links in the navigation menu */
+        aside a {
+            display: block;
+            text-decoration: none;
+            color: yellow; /* Text color for links */
+            background-color: #333; /* Background color for links */
+            padding: 10px; /* Add padding to the links */
+            border-radius: 5px; /* Rounded corners for links */
+            margin-bottom: 10px;
+        }
+
+        /* Style for the links in the navigation menu on hover */
+        aside a:hover {
+            background-color: #555; /* Background color on hover */
+        }
+
+        /* Style for the main content */
+        main {
+            background-color: yellow; /* Set the background color of the content to yellow */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            flex-grow: 1;
+        }
+
+        /* Style for the header */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style for the links */
+        a {
+            text-decoration: none;
+            color: #007bff; /* Blue color for links */
+        }
+
+        /* Style for the links on hover */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style for the specific heading */
+        header h1 {
+            background-color: transparent !important; /* Remove the background color */
+        }
+
+        /* Style for the date at the bottom */
+        .date {
+            text-align: right;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">Musings</a></li>
+                <li><a href="#">My town</a></li>
+                <li><a href="#">Links</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <header>
+            <h1>My first styled page</h1>
+        </header>
+        <p>Welcome to my styled page!</p>
+        <p>It lacks images, but at least it has style. And it has links, even if they don't go anywhere…</p>
+        <p>There should be more here, but I don't know what yet.</p>
+        <div class="date">Made 5 April 2004 by myself.</div>
+    </main>
+</body>
+</html>
